@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 
-import { GridContainer } from "./components/GridV1"
-import { GridV1Sidebar } from "./components/GridV1/sidebar"
 import { GridV1Header, THeaderData} from "./components/GridV1/header"
+import { GridV1Sidebar } from "./components/GridV1/sidebar"
 import { GridV1Content } from "./components/GridV1/content"
 import { GridV1Footer } from "./components/GridV1/footer"
+import { GridContainer } from "./components/GridV1"
 
 export default function HomePage() {
     const HeaderData: THeaderData[] = [
